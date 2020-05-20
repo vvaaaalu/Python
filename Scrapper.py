@@ -1,7 +1,7 @@
 #Web Scrapper
 import requests
 from bs4 import BeautifulSoup
-START = 50
+START = 0
 URL = "https://www.indeed.com/jobs?q=python&limit={LIMIT}"
 #definition
 def extract_indeed_pages():
